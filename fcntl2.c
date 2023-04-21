@@ -12,3 +12,4 @@ void set_fl(int fd, int flags)
 }
 // set_fl(STDOUT_FILENO, O_SYNC) 使每次write等待，知道数据写到磁盘再返回
 // val |= O_SYNV的含义 相当于打开文件的格式改为原有属性加上O_SYNV(等待数据和属性写完成)
+
